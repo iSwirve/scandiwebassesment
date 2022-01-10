@@ -59,8 +59,8 @@ function alert($message)
             <h1 style="float: left;">Product Add</h1>
             <div style="float: right;">
 
-                <button type="submit" name="addBtn" onclick="location.href='add-product.php'">Save</button>
-                <button type="button" id="delete-product-btn" onclick="location.href='index.php'">Cancel</button>
+                <button type="submit" class="btn btn-success" name="addBtn" onclick="location.href='add-product.php'">Save</button>
+                <button type="button" class="btn btn-danger" id="delete-product-btn" onclick="location.href='index.php'">Cancel</button>
             </div>
             <br>
             <br>
